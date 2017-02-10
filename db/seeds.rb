@@ -7,6 +7,7 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 require 'open-uri'
 require 'json'
+require 'faker'
 
 url = "http://www.thecocktaildb.com/api/json/v1/1/list.php?i=list"
 ingredients_serialized = open(url).read
@@ -16,3 +17,5 @@ ingredients["drinks"].each do |thing|
   Ingredient.create(name: thing["strIngredient1"])
   # Ingredient.new = drinks[strIngredient1]
 end
+
+
