@@ -66,6 +66,15 @@
   color: #F87D09;
   text-decoration: none;
 }
+.fa-trash-o {
+  font-size: 20px;
+  color: #004A55;
+  text-decoration: none;
+}
+.fa-trash-o:hover {
+  color: #F87D09;
+  text-decoration: none;
+}
 
 .card a {
   color: white;
@@ -77,9 +86,9 @@
 
 h1 {
   text-align: center;
-  font-weight: bold;
   font-size: 40px;
   color: #004A55;
+  font-family: "Avenir";
 }
 
 body {
@@ -92,4 +101,19 @@ body {
   padding-bottom: 12px;
 }
 
+h2{
+  text-align: center;
+  color: #004A55;
+}
 
+.photo_cocktail {
+  margin-left: 90px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.ingredients {
+  color: #A7CDCC
+}
