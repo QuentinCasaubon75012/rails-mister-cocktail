@@ -115,5 +115,33 @@ li {
 }
 
 .ingredients {
-  color: #A7CDCC
+  color: #004A55;
+  position: relative;
+}
+
+.ingredients i {
+  position: absolute;
+  right: 50px;
+}
+
+.showmyform {
+  margin-left: 38px;
+  background-color: #A7CDCC;
+  border: 1px solid #A7CDCC;
+}
+
+.showmyform:hover {
+  background-color: #F87D09;
+  border: 1px solid #F87D09;
+}
+
+.coconut {
+  margin-left: 38px;
+  background-color: #A7CDCC;
+  border: 1px solid #A7CDCC;
+}
+
+.coconut:hover {
+  background-color: #F87D09;
+  border: 1px solid #F87D09;
 }
